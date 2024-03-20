@@ -2,7 +2,7 @@
 let hero
 
 function getHero(){
-    return "thor";
+    return 2;
 }
 
 hero = getHero; //at this point typeScript infers hero as `any` because it cannot expect any data type
@@ -15,3 +15,4 @@ function getHeroine(){
 }
 
 heroine = getHeroine();
+// heroine = getHero(); //this statement gives you error because it accepts only string 

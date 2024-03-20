@@ -35,6 +35,7 @@ function addTen(num:number):number{
 
 }
 
+//defining the same using arrow functions
 const ten = (num:number):number=>{
     return num+10;
 }
